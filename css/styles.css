@@ -25,7 +25,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
     outline: 1px solid tomato;
+}
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 /* background-color */
@@ -60,29 +67,40 @@ body {
 }
 
 /* nav */
-/*.container-nav {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1170px;
-    height: 80px;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    outline: 1px solid tomato;
+.heder-nav {
+    display: flex;
+    align-items: center;
 }
-.container-contacts {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1170px;
-    height: 30px;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    outline: 1px solid tomato;
-}*/
-.list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+.site-nav {
+    display: flex;
+    margin-left: 93px;
 }
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+.site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.contacts-nav {
+    display: flex;
+    margin-left: auto;
+}
+.contacts-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.contacts-nav .item + .item {
+    margin-left: 50px;
+}
+
 .link {
     text-decoration: none;
     font-family: Roboto;
@@ -91,6 +109,7 @@ body {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+
     color: var(--primary-text-color);
 }
 .link:hover,
@@ -105,19 +124,17 @@ body {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+
     color: var(--secondary-text-color);
 }
 .header-contacts:hover,
 .header-contacts:focus {
     color: var(--accent-color);
 }
-.site-nav .link.current {
-    color: var(--accent-color);
-}
-
 /* baner */
 .baner {
     text-align: center;
+    margin-bottom: 94px;
 
 }
 .baner-headline {
@@ -130,6 +147,7 @@ body {
     line-height: 60px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
     color: var(--title-text-color);
 }
 
