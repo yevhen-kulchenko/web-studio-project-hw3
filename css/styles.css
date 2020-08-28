@@ -239,8 +239,9 @@ img {
     margin-bottom: 94px;
 }
 .section-heading {
-    margin-top: 0;
-    margin-bottom: 50px;
+    margin: 0;
+    padding-top: 94px;
+    padding-bottom: 50px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -339,6 +340,10 @@ img {
 }
 
 /* portfolio-page */
+.filters-button .button-item:not(:last-child) {
+    margin-right: 8px;
+}
+
 .filters-button {
     display: flex;
     justify-content: center;
