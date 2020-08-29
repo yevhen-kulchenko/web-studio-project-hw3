@@ -264,7 +264,6 @@ img {
 .team-card {
     width: calc((100% - 30px * 3) / 4);
     margin-right: 30px;
-    margin-bottom: 30px;
 }
 .team-card:nth-child(4n) {
     margin-right: 0;
