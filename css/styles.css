@@ -255,11 +255,12 @@ img {
 /* team */
 .section-team {
     padding-top: 94px;
+    padding-bottom: 94px;
+
 }
 .team {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
 }
 .team-card {
     width: calc((100% - 30px * 3) / 4);
