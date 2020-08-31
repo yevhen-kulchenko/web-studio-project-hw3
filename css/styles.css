@@ -72,6 +72,9 @@ img {
 }
 
 /* nav */
+.border {
+    border-bottom: 1px solid #ECECEC;
+}
 .heder-nav {
     display: flex;
     align-items: center;
@@ -181,7 +184,6 @@ img {
 /* features */
 .section-features {
     margin: 0;
-    padding-bottom: 94px;
 }
 .features {
     display: flex;
@@ -224,6 +226,9 @@ img {
 }
 
 /* what we do */
+.section-spec {
+    padding-top: 94px;
+}
 .main-activity {
     display: flex;
     flex-wrap: wrap;
@@ -235,9 +240,6 @@ img {
 }
 .activity-item:nth-child(3n) {
     margin-right: 0;
-}
-.section-spec {
-    padding-top: 94px;
 }
 .section-heading {
     margin-top: 0;
