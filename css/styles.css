@@ -188,7 +188,6 @@ img {
 .features {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 30px;
 }
 .features-item {
     width: calc((100% - 30px * 3) / 4);
